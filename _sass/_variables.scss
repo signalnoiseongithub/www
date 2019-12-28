@@ -1,4 +1,20 @@
-//
-// variables.scss
-//
+/*
+ * variables.scss
+ */
 
+/*
+ * Webfonts
+ */
+// Load fonts via adobe fonts
+@import url("https://use.typekit.net/whr0ojz.css");
+
+// Declare fonts
+$font-family_base: "ibm-plex-sans", sans-serif;
+
+/*
+ * Override bootstrap
+ */
+// Font family
+body {
+  font-family: $font-family_base;
+}
