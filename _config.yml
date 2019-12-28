@@ -1,0 +1,28 @@
+---
+
+title: signalnoise
+description: signalnoise website
+
+url: https://signalnoiseongithub.github.io/www
+baseurl: /www
+
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+#google_analytics: 
