@@ -28,4 +28,6 @@ sass:
 plugins:
   - jekyll-feed
 
+author: signalnoise
+
 #google_analytics: 
