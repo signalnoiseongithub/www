@@ -1,0 +1,13 @@
+main_nav:
+  - title: home
+    path: /
+
+  - title: news
+    path: /news
+
+  - title: reviews
+    path: /reviews
+
+  - title: brand
+    path: /brand
+
