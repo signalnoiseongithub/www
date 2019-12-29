@@ -3,10 +3,10 @@ layout: default
 title: Smartphone
 ---
 
-<section>
-  <nav>
+<section class="row">
+  <nav class="d-flex flex-row flex-nowrap flex-fill" style="overflow-x: auto;">
     {% for smartphone in site.data.navigation.smartphone %}
-    <div class="card ml-1 d-flex flex-row flex-nowrap flex-fill" style="overflow-x: auto;">
+    <div class="col card">
       <div class="card-body">
         <p class="card-text">
           {{ smartphone.brand }}
