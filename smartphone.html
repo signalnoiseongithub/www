@@ -3,10 +3,10 @@ layout: default
 title: Smartphone
 ---
 
-<section>
-  <nav class="container-fluid">
+<section class="container-fluid">
+  <nav>
     {% for smartphone in site.data.navigation.smartphone %}
-    <div class="card d-flex flex-nowrap flex-fill">
+    <div class="card d-flex flex-nowrap">
       <div class="card-body">
         <p class="card-text">
           {{ smartphone.brand }}
