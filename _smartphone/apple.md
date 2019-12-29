@@ -3,8 +3,8 @@ layout: page
 title: Apple
 ---
 
-<div>
-{% for item in site.data.smartphone.apple.iphone7 %}
+<div bg-light>
+{% for item in site.data.smartphone.apple.iphone7.yml %}
   <p>{{ item.name }}</p>
 {% endfor %}
 </div>
