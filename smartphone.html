@@ -4,12 +4,14 @@ title: Smartphone
 ---
 
 <section>
-  <nav class="nav flex-row flex-nowrap" style="overflow-x: auto;">
+  <nav class="flex-row flex-nowrap" style="overflow-x: auto;">
     {% for smartphone in site.data.navigation.smartphone %}
-    <div class="nav-item">
-      <a href="#" class="nav-link text-dark">
-        {{ smartphone.brand }}
-      </a>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">
+          {{ smartphone.brand }}
+        </p>
+      </div>
     </div>
     {% endfor %}
   </nav>
