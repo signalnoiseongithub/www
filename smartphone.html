@@ -4,14 +4,12 @@ title: Smartphone
 ---
 
 <section>
-  <nav class="row flex-row flex-nowrap">
+  <nav class="nav flex-row flex-nowrap">
     {% for smartphone in site.data.navigation.smartphone %}
-    <div class="col-3">
-      <div>
-        <p>
-          {{ smartphone.brand }}
-        </p>
-      </div>
+    <div class="nav-item">
+      <p>
+        {{ smartphone.brand }}
+      </p>
     </div>
     {% endfor %}
   </nav>
