@@ -11,3 +11,46 @@ main_nav:
   - title: brand
     path: /brand
 
+smartphone:
+  - brand: Apple
+  
+  - brand: Asus
+  
+  - brand: Google
+  
+  - brand: Honor
+  
+  - brand: HTC
+  
+  - brand: Huawei
+  
+  - brand: Infinix
+  
+  - brand: Lenovo
+  
+  - brand: LG
+  
+  - brand: Microsoft
+  
+  - brand: Motorola
+  
+  - brand: Nokia
+  
+  - brand: OnePlus
+  
+  - brand: Oppo
+  
+  - brand: Realme
+  
+  - brand: Samsung
+  
+  - brand: Sony
+  
+  - brand: Vivo
+  
+  - brand: Xiaomi
+  
+
+  
+  
+  
