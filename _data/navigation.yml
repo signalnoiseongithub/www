@@ -13,7 +13,7 @@ main_nav:
 
 smartphone:
   - brand: Apple
-  
+    url: /apple
   - brand: Asus
   
   - brand: Google
