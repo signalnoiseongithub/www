@@ -4,8 +4,7 @@ title: Apple
 ---
 
 <div>
-{% for item_hash in site.data.smartphone.apple.iphone %}
-{% assign item = item_hash[0] %}
+{% for item in site.data.smartphone.apple.iphone7 %}
   <p>{{ item.name }}</p>
 {% endfor %}
 </div>
