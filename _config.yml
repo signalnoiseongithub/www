@@ -21,6 +21,10 @@ defaults:
   values:
     layout: post
 
+collections:
+  smartphone:
+    output: true
+
 sass:
   sass_dir: _sass
   style: compressed
