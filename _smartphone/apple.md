@@ -3,7 +3,6 @@ layout: page
 title: Apple
 ---
 
-{% assign items = site.data.smartphone.apple.iphone.iphone7 %}
-{% for item in items %}
+{% for item site.data.smartphone.apple.iphone.iphone7 %}
   <p>{{ item.name }}</p>
 {% endfor %}
