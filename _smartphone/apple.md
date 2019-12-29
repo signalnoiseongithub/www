@@ -4,9 +4,9 @@ title: Apple
 ---
 
 <div class="bg-light">
-{% for item in site.data.smartphone/apple/iphone7 %}
-  <p>{{ item.release }}</p>
+{% for item in site.data.smartphone.apple.iphone7 %}
+  <p>{{ item.name }}</p>
 {% endfor %}
 </div>
 
-hek wadu hek
+hek wadu hek lurn
