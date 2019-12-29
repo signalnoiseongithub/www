@@ -2,10 +2,10 @@
 layout: page
 title: Apple
 ---
-
+jk
 <div class="bg-light">
-{% for item in site.data.smartphone.apple %}
-  <p>{{ item.name }}</p>
+{% for item in site.data.smartphone.apple.iphone7 %}
+  {{ item.name }}
 {% endfor %}
 </div>
 
