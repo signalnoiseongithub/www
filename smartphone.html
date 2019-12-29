@@ -2,3 +2,17 @@
 layout: default
 title: Smartphone
 ---
+
+<section>
+  <nav>
+    {% for smartphone in site.data.navigation.smartphone %}
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">
+          {{ smartphone.brand }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </nav>
+</section>
