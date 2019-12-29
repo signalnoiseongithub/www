@@ -1,7 +1,2 @@
-iphone7:
-  name: "iphone 7"
-  release: "2017"
-  
-iphone7plus:
-  name: "iphone 7 plus"
-  release: "2017"
+name: "iphone 7"
+release: "2017"
