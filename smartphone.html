@@ -4,14 +4,16 @@ title: Smartphone
 ---
 
 <section class="container-fluid">
-  <nav class="row d-flex flex-row flex-nowrap justify-content-around overflow-auto">
+  <nav class="row d-flex flex-row flex-nowrap overflow-auto">
     
     {% for smartphone in site.data.navigation.smartphone %}
-    <div class="col-auto card">
-      <div class="card-body">
-        <p class="card-text">
-          <a href="#" class="stretched-link">{{ smartphone.brand }}</a>
-        </p>
+    <div class="col-auto mx-2">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <a href="#" class="stretched-link">{{ smartphone.brand }}</a>
+          </p>
+        </div>
       </div>
     </div>
     {% endfor %}
