@@ -4,8 +4,8 @@ title: Apple
 ---
 
 <div class="bg-light">
-{% for item in site.data.navigation.main_nav %}
-  <p>{{ item.title }}</p>
+{% for item in site.data.smartphone.apple.iphone7 %}
+  <p>{{ item.release }}</p>
 {% endfor %}
 </div>
 
