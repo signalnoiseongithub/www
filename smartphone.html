@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Smartphone
+smartphone: iphone7
 ---
 
 <section class="container-fluid">
@@ -23,7 +24,7 @@ title: Smartphone
 
 <section class="container">
   <h3>Testing data files</h3>
-  {% assign items = site.data.navigation.smartphone.apple.iphone7 %}
+  {% assign items = site.data.navigation.smartphone.apple[page.smartphone] %}
   {% for item in items %}
     <p>{{ item.name }}</p>
   {% endfor %}
