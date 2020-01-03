@@ -24,8 +24,7 @@ smartphone: iphone7
 
 <section class="container">
   <h3>Testing data files</h3>
-  {% assign items = site.data.navigation.smartphone.apple[page.smartphone] %}
-  {% for item in items %}
+  {% for item = site.data.smartphone.apple[page.smartphone] %}
     <p>{{ item.name }}</p>
   {% endfor %}
 </section>
