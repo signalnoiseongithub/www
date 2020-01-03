@@ -21,9 +21,9 @@ title: Smartphone
   </nav>
 </section>
 
-<section>
-  <h1>Testing data files</h1>
-  {% assign items = site.data.navigation.smartphone.apple.iphone7.iphone7 %}
+<section class="container">
+  <h3>Testing data files</h3>
+  {% assign items = site.data.navigation.smartphone.apple.iphone7 %}
   {% for item in items %}
     <p>{{ item.name }}</p>
   {% endfor %}
