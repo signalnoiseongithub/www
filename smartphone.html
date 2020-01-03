@@ -24,7 +24,7 @@ smartphone: iphone7
 
 <section class="container">
   <h3>Testing data files</h3>
-  {% for item = site.data.smartphone.apple[page.smartphone] %}
+  {% for item in site.data.smartphone.apple[page.smartphone] %}
     <p>{{ item.name }}</p>
   {% endfor %}
 </section>
